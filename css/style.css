@@ -1,0 +1,166 @@
+/* ###### GLOBAL ###### */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+/* ###### QUALITY ###### */
+
+.quality {
+    text-align: center;
+    padding: 96px 0 59px;
+}
+
+.quality-box {
+    position: relative;
+    padding: 40px 25px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: .6s;
+}
+
+.quality-box:hover {
+    box-shadow: 1px 1px 5px 1px rgba(226, 123, 58, 0.25);
+}
+
+.bowl {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -21px;
+}
+
+.shadow-bowl {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+}
+
+.quality-title {
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+}
+
+.quality-desc {
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+    margin: 11px 0 24px;
+}
+
+.quality-link {
+    line-height: 24px;
+    color: #E27B3A;
+}
+
+/* ###### POPULAR ###### */
+
+.popular {
+    text-align: center;
+    padding: 59px 0 69px;
+}
+
+.popular-headline {
+    font-size: 32.25px;
+    line-height: 48px;
+    color: #170C04;
+    margin-bottom: 18px;
+}
+
+.popular-subtitle {
+    max-width: 505px;
+    margin: 0 auto 25px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+}
+
+.popular-box {
+    margin-bottom: 66px;
+}
+
+.popular-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FCF2EB;
+    border-radius: 20px;
+}
+
+.col-6 .popular-img {
+    width: 555px;
+    height: 420px;
+}
+
+.col-4 .popular-img {
+    width: 360px;
+    height: 273px;
+}
+
+.popular-title {
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+    margin: 25px 0 9px;
+}
+
+.popular-link {
+    line-height: 19px;
+    color: #E27B3A;
+}
+
+.popular-btn {
+    line-height: 24px;
+    color: #E27B3A;
+    border: 1px solid #d5a28e;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 30px;
+    transition: .6s;
+}
+
+.popular-btn:hover {
+    background: #E27B3A;
+    color: #FFFFFF;
+}
+
